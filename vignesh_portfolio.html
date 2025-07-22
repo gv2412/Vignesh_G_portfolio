@@ -109,9 +109,9 @@
             @apply text-gray-400 hover:text-accent transition-colors duration-300;
         }
 
-        /* Skill card styling */
-        .skill-card {
-            @apply bg-white p-6 rounded-lg shadow-lg text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+        /* Card styling */
+        .card {
+            @apply bg-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
         }
     </style>
 </head>
@@ -125,8 +125,9 @@
                 <a href="#about" class="nav-link">01. About</a>
                 <a href="#skills" class="nav-link">02. Skills</a>
                 <a href="#experience" class="nav-link">03. Experience</a>
-                <a href="#projects" class="nav-link">04. Work</a>
-                <a href="#contact" class="nav-link">05. Contact</a>
+                <a href="#education" class="nav-link">04. Education</a>
+                <a href="#projects" class="nav-link">05. Work</a>
+                <a href="#contact" class="nav-link">06. Contact</a>
                 <a href="https://drive.google.com/drive/folders/1REOpyLrPOKZ_2o9Pivfh8yAjwOq3inbL?usp=drive_link" target="_blank" class="btn btn-outline !py-2 !px-4">Resume</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-secondary">
@@ -141,6 +142,7 @@
                 <a href="#about" class="nav-link">About</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
                 <a href="#projects" class="nav-link">Work</a>
                 <a href="#contact" class="nav-link">Contact</a>
                 <a href="https://drive.google.com/drive/folders/1REOpyLrPOKZ_2o9Pivfh8yAjwOq3inbL?usp=drive_link" target="_blank" class="btn btn-outline !py-2 !px-4 mt-2">Resume</a>
@@ -204,27 +206,27 @@
                     <span class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-highlight"></span>
                 </h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                    <div class="skill-card fade-in">
+                    <div class="card text-center fade-in">
                         <h3 class="text-xl font-bold text-primary mb-2">Quick Learner</h3>
                         <p class="text-charcoal">I rapidly grasp new concepts and technologies, allowing me to adapt quickly to new challenges and contribute effectively to projects.</p>
                     </div>
-                     <div class="skill-card fade-in" style="transition-delay: 100ms;">
+                     <div class="card text-center fade-in" style="transition-delay: 100ms;">
                         <h3 class="text-xl font-bold text-primary mb-2">Smart Worker</h3>
                         <p class="text-charcoal">I focus on efficient strategies to solve problems, optimizing workflows to deliver high-quality results in a timely manner.</p>
                     </div>
-                     <div class="skill-card fade-in" style="transition-delay: 200ms;">
+                     <div class="card text-center fade-in" style="transition-delay: 200ms;">
                         <h3 class="text-xl font-bold text-primary mb-2">Leadership</h3>
                         <p class="text-charcoal">I am adept at guiding and motivating teams, fostering a collaborative environment to achieve shared goals and drive project success.</p>
                     </div>
-                     <div class="skill-card fade-in" style="transition-delay: 300ms;">
+                     <div class="card text-center fade-in" style="transition-delay: 300ms;">
                         <h3 class="text-xl font-bold text-primary mb-2">Creative Thinking</h3>
                         <p class="text-charcoal">I approach problems with an innovative mindset, developing unique solutions and thinking outside the box to overcome obstacles.</p>
                     </div>
-                     <div class="skill-card fade-in" style="transition-delay: 400ms;">
+                     <div class="card text-center fade-in" style="transition-delay: 400ms;">
                         <h3 class="text-xl font-bold text-primary mb-2">Self-Motivated</h3>
                         <p class="text-charcoal">With a strong internal drive, I proactively seek out new challenges and responsibilities, requiring minimal supervision to stay on task.</p>
                     </div>
-                     <div class="skill-card fade-in" style="transition-delay: 500ms;">
+                     <div class="card text-center fade-in" style="transition-delay: 500ms;">
                         <h3 class="text-xl font-bold text-primary mb-2">Emotional Intelligence</h3>
                         <p class="text-charcoal">I possess a strong awareness of my own and others' emotions, enabling me to build strong relationships and navigate complex social dynamics.</p>
                     </div>
@@ -250,16 +252,46 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="section bg-light-grey">
+        <!-- Education Section -->
+        <section id="education" class="section bg-light-grey">
             <div class="container mx-auto">
                 <h2 class="text-4xl font-bold mb-12 text-center text-primary relative inline-block fade-in">
-                    <span class="font-code text-accent text-2xl">04.</span> Some Things I've Built
+                    <span class="font-code text-accent text-2xl">04.</span> My Education
+                    <span class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-highlight"></span>
+                </h2>
+                <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="card fade-in">
+                        <h3 class="text-xl font-bold text-primary">B.E in Electrical and Electronics Engineering</h3>
+                        <p class="text-highlight font-semibold my-1">VSB Engineering College, Karur</p>
+                        <p class="font-code text-sm text-gray-600 mb-2">2022 - 2026</p>
+                        <p class="text-charcoal">Current CGPA: <span class="font-bold">8.15</span></p>
+                    </div>
+                    <div class="card fade-in" style="transition-delay: 100ms;">
+                        <h3 class="text-xl font-bold text-primary">HSC (12th Grade)</h3>
+                        <p class="text-highlight font-semibold my-1">TNPL Matric Higher Secondary School</p>
+                        <p class="font-code text-sm text-gray-600 mb-2">2021 - 2022</p>
+                        <p class="text-charcoal">Percentage: <span class="font-bold">90.33%</span></p>
+                    </div>
+                     <div class="card lg:col-span-2 mx-auto w-full lg:w-1/2 fade-in" style="transition-delay: 200ms;">
+                        <h3 class="text-xl font-bold text-primary">SSLC (10th Grade)</h3>
+                        <p class="text-highlight font-semibold my-1">TNPL Matric Higher Secondary School</p>
+                        <p class="font-code text-sm text-gray-600 mb-2">2019 - 2020</p>
+                        <p class="text-charcoal">Percentage: <span class="font-bold">74.8%</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-secondary">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-12 text-center text-primary relative inline-block fade-in">
+                    <span class="font-code text-accent text-2xl">05.</span> Some Things I've Built
                     <span class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-2/3 h-1 bg-highlight"></span>
                 </h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Project 1 -->
-                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden group fade-in">
+                    <div class="project-card bg-light-grey rounded-lg shadow-lg overflow-hidden group fade-in">
                         <div class="relative">
                             <img src="https://placehold.co/600x400/4ECDC4/FFFFFF?text=Project+1" alt="Project 1" class="project-image w-full h-56 object-cover transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Image+Not+Found';">
                             <div class="project-overlay absolute inset-0 bg-primary bg-opacity-75 opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
@@ -275,7 +307,7 @@
                         </div>
                     </div>
                     <!-- Project 2 -->
-                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden group fade-in" style="transition-delay: 100ms;">
+                    <div class="project-card bg-light-grey rounded-lg shadow-lg overflow-hidden group fade-in" style="transition-delay: 100ms;">
                         <div class="relative">
                             <img src="https://placehold.co/600x400/FF6B6B/FFFFFF?text=Project+2" alt="Project 2" class="project-image w-full h-56 object-cover transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Image+Not+Found';">
                             <div class="project-overlay absolute inset-0 bg-primary bg-opacity-75 opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
@@ -291,7 +323,7 @@
                         </div>
                     </div>
                     <!-- Project 3 -->
-                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden group fade-in" style="transition-delay: 200ms;">
+                    <div class="project-card bg-light-grey rounded-lg shadow-lg overflow-hidden group fade-in" style="transition-delay: 200ms;">
                         <div class="relative">
                             <img src="https://placehold.co/600x400/0A0A0A/FFFFFF?text=Project+3" alt="Project 3" class="project-image w-full h-56 object-cover transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Image+Not+Found';">
                             <div class="project-overlay absolute inset-0 bg-primary bg-opacity-75 opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
@@ -313,7 +345,7 @@
         <!-- Contact Section -->
         <section id="contact" class="section bg-primary text-secondary">
             <div class="container mx-auto text-center max-w-3xl">
-                <h2 class="font-code text-accent text-lg mb-4 fade-in">05. What's Next?</h2>
+                <h2 class="font-code text-accent text-lg mb-4 fade-in">06. What's Next?</h2>
                 <h3 class="text-5xl font-bold mb-6 fade-in" style="transition-delay: 100ms;">Get In Touch</h3>
                 <p class="text-gray-300 mb-12 fade-in" style="transition-delay: 200ms;">
                     My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
